@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Order",
+  "namespace": "demo",
+  "fields": [
+    {"name": "order_id", "type": "string"},
+    {"name": "customer_id", "type": "string"},
+    {"name": "status", "type": "string"},
+    {"name": "total", "type": "double"}
+  ]
+}
