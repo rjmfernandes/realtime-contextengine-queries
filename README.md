@@ -2,6 +2,7 @@
 
 
 - [Confluent Real-Time Context Engine Demo](#confluent-real-time-context-engine-demo)
+  - [Disclaimer](#disclaimer)
   - [Prerequisites](#prerequisites)
   - [Configure Your Environment](#configure-your-environment)
   - [Create or Select Cloud Resources](#create-or-select-cloud-resources)
@@ -12,8 +13,12 @@
   - [Check Freshness](#check-freshness)
   - [Query Limitations](#query-limitations)
 
-
 This demo creates an Avro-backed `orders` topic in Confluent Cloud, enables the Real-Time Context Engine (RTCE), and queries the topic from Claude Code through MCP.
+
+## Disclaimer
+
+The code and/or instructions here available are **NOT** intended for production usage.
+It's only meant to serve as an example or reference and does not replace the need to follow actual and official documentation of referenced products.
 
 ## Prerequisites
 
